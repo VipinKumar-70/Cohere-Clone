@@ -4,7 +4,7 @@ import Button from "./Button";
 function playground() {
   return (
     <section>
-      <div className="bg-[#0C1210] text-gray-50 relative flex justify-between items-center gap-x-24 gap-y-10 flex-wrap md:flex-nowrap py-16 2xl:px-44 lg:px-24 px-5">
+      <div className="bg-[#0C1210] text-gray-50 relative flex justify-between items-center lg:gap-x-20 md:gap-x-16 gap-y-10 flex-wrap md:flex-nowrap py-16 2xl:px-44 lg:px-24 px-5">
         <div className="2xl:w-full md:w-[50%] w-full flex flex-col gap-y-16">
           <div className="lg:text-5xl md:text-4xl text-2xl">
             Build with Advanced Retrieval

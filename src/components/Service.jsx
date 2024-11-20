@@ -11,7 +11,7 @@ function Service() {
       style={{ backgroundImage: `url(${banner})` }}
     >
       {/* First Section */}
-      <div className="relative flex items-center justify-between flex-wrap md:flex-nowrap w-full py-12 font-starcil font-semibold">
+      <div className="relative flex items-center justify-between flex-wrap gap-y-6 md:flex-nowrap w-full py-12 font-starcil font-semibold">
         <div className="sm:w-full md:w-3/4 xl:w-[50%] lg:w-[70%]">
           <div className="flex gap-3 mb-3">
             <p>OUR MODELS</p>
@@ -35,7 +35,7 @@ function Service() {
       </div>
 
       {/* Second Section */}
-      <div className="relative flex items-center justify-between flex-wrap md:flex-nowrap w-full py-12 font-starcil font-semibold bg-[#ffffff96] rounded-3xl">
+      <div className="relative flex items-center justify-between flex-wrap gap-y-6 md:flex-nowrap w-full py-12 font-starcil font-semibold bg-[#ffffff96] rounded-3xl">
         <div className="w-full md:w-1/2 flex justify-center md:justify-end md:order-1 order-2">
           <img src={growth} alt="" className="max-w-full h-auto" />
         </div>
@@ -68,7 +68,7 @@ function Service() {
       </div>
 
       {/* Third Section */}
-      <div className="relative flex items-center justify-between flex-wrap md:flex-nowrap w-full py-12 font-starcil font-semibold bg-[#ffffff96] rounded-3xl">
+      <div className="relative flex items-center justify-between flex-wrap gap-y-6 md:flex-nowrap w-full py-12 font-starcil font-semibold bg-[#ffffff96] rounded-3xl">
         <div className="w-full md:w-1/2 flex justify-center md:justify-end order-2">
           <img src={model} alt="" className="max-w-full h-auto" />
         </div>
@@ -102,11 +102,11 @@ function Service() {
       </div>
 
       {/* Forth Section */}
-      <div className="relative flex items-center justify-between flex-wrap md:flex-nowrap w-full py-12 font-starcil font-semibold bg-[#ffffff96] rounded-3xl">
-        <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+      <div className="relative flex items-center justify-between flex-wrap gap-y-6 md:flex-nowrap w-full py-12 font-starcil font-semibold bg-[#ffffff96] rounded-3xl">
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end md:order-1 order-2">
           <img src={growth} alt="" className="max-w-full h-auto" />
         </div>
-        <div className="sm:w-full md:w-3/4 lg:w-[60%] xl:w-[50%] flex justify-start flex-wrap flex-col 2xl:px-20 lg:px-10 px-4">
+        <div className="sm:w-full md:w-3/4 lg:w-[60%] xl:w-[50%] flex justify-start flex-wrap flex-col 2xl:px-20 lg:px-10 px-4 md:order-2 order-1">
           <div className="flex gap-3 items-center text-xs my-2">
             <p>RETRIEVAL & RERANK</p>
             <img
