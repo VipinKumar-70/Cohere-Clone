@@ -42,8 +42,11 @@ function Service() {
         </div>
 
         {/* Second Section */}
-        <div className="relative flex items-center justify-between flex-wrap md:flex-nowrap w-full py-12 font-starcil font-semibold bg-[#ffffff96] rounded-3xl flex-row-reverse gap-y-6 p-3">
-          <div className="sm:w-full md:w-3/4 lg:w-[60%] xl:w-[50%] flex justify-start flex-wrap flex-col 2xl:px-20 lg:px-10 px-4">
+        <div className="relative flex items-center justify-between flex-wrap md:flex-nowrap w-full py-12 font-starcil font-semibold bg-[#ffffff96] rounded-3xl">
+          <div className="w-full md:w-1/2 flex justify-center md:justify-end md:order-1 order-2">
+            <img src={model} alt="" className="max-w-full h-auto" />
+          </div>
+          <div className="sm:w-full md:w-3/4 lg:w-[60%] xl:w-[50%] flex justify-start flex-wrap flex-col 2xl:px-20 lg:px-10 px-4 order-1 md:order-2">
             <div className="flex gap-3 items-center text-xs my-2">
               <p className="p-2 bg-purple-400 rounded-lg">NEW</p>
               <p>COMMAND</p>
@@ -53,24 +56,17 @@ function Service() {
                 className="w-4 h-4"
               />
             </div>
+
             <div>
-              <p className="lg:text-4xl md:text-3xl text-2xl font-medium mb-6">
+              <p className="lg:text-4xl md:text-3xl text-2xl font-medium mb-8">
                 Cohere Command, powering innovation with enterprise GenAI
               </p>
-            </div>
-            <div className="mb-6 font-medium">
-              <p>
+              <p className="mb-10">
                 Command models are used by companies to build production-ready,
                 scalable and efficient AI-powered applications.
               </p>
-            </div>
-            <div>
               <Button title="Learn more" />
             </div>
-          </div>
-
-          <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-            <img src={model} alt="" className="max-w-full h-auto" />
           </div>
         </div>
       </div>

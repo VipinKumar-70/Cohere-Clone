@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 function Home() {
   return (
-    <section className="w-full h-screen relative overflow-hidden">
+    <section className="w-full relative overflow-hidden">
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
         muted
@@ -16,7 +16,7 @@ function Home() {
         />
       </video>
       <div className="w-full relative py-6 lg:py-16 2xl:py-26 max-w-screen-xl mx-auto px-6 md:px-16 pt-28 lg:pt-36">
-        <div className="flex flex-col justify-between lg:gap-y-12 gap-y-6">
+        <div className="flex flex-col justify-between lg:gap-y-12 gap-y-6 pb-10">
           <div className="lg:mb-0 md:mb-4">
             <h1 className="2xl:text-7xl text-5xl font-staread">
               <span>The Leading</span>
