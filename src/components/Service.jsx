@@ -58,7 +58,11 @@ function Service() {
               Command models are used by companies to build production-ready,
               scalable and efficient AI-powered applications.
             </p>
-            <Button title="Learn more" />
+            <Button
+              bgColor="bg-black"
+              textSize="text-[14px]"
+              title="Learn more"
+            />
           </div>
         </div>
       </div>
@@ -88,7 +92,11 @@ function Service() {
               strategy starting with the highest performing embedding model,
               which supports over 100 languages.
             </p>
-            <Button title="Learn more" />
+            <Button
+              bgColor="bg-black"
+              textSize="text-[14px]"
+              title="Learn more"
+            />
           </div>
         </div>
       </div>
@@ -117,7 +125,11 @@ function Service() {
               up-to-date responses for your application, grounding
               retrieval-augmented generation (RAG) in your data.
             </p>
-            <Button title="Learn more" />
+            <Button
+              bgColor="bg-black"
+              textSize="text-[14px]"
+              title="Learn more"
+            />
           </div>
         </div>
       </div>

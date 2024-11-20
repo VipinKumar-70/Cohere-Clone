@@ -35,7 +35,11 @@ function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-y-3">
-            <Button title="Get A Demo" />
+            <Button
+              bgColor="bg-[#212121]"
+              title="Contact Sales"
+              textSize="text-[14px]"
+            />
             <div className="relative rounded-lg cursor-pointer">
               <div className="absolute text-black text-sm top-1 -left-5 ml-8 mt-1 rounded-lg sm:w-auto w-full">
                 TRY THE PLAYGROUND
