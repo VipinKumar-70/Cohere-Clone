@@ -9,48 +9,33 @@ function Button({
 }) {
   return (
     <div className="relative flex grow">
-      <div className="flex grow gap-x-2.5">
-        <div
-          className={`h-full min-h-cell-md max-h-cell-md flex group/cell transition-all sm:grow-0 grow cursor-pointer`}
-        >
-          <span
-            className={`${bgColor} h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right -mr-0.5 w-3 rounded-l-[6px] border-transparent`}
-          ></span>
+      <div className="flex grow">
+        {/* Left Button Part */}
+        <div className="flex sm:grow-0 grow group transition-all cursor-pointer">
+          <span className={`${bgColor} w-3 rounded-l-md`}></span>
           <div
-            className={`${bgColor} ${textColor} h-full min-h-cell-md max-h-cell-md truncate flex grow justify-start items-center transition-colors bg-clip-padding py-2 pr-28`}
+            className={`${bgColor} ${textColor} flex grow items-center justify-start py-2 pr-20`}
           >
-            <div className="w-full">
-              <span className="px-0 justify-between flex w-full items-center transition-all">
-                <span className={`${textSize} font-body uppercase`}>
-                  <span>{title}</span>
-                  <br />
-                </span>
-              </span>
-            </div>
+            <span className={`${textSize} font-body uppercase truncate`}>
+              {title}
+            </span>
           </div>
           <span
-            className={`${bgColor} h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right w-6 -skew-x-[21deg] rounded-tr-[10px] rounded-br-[4px] border-transparent`}
+            className={`${bgColor} w-9 -skew-x-[21deg] rounded-tr-md rounded-br-md -translate-x-2`}
           ></span>
         </div>
 
-        <div
-          className={`h-full min-h-cell-md max-h-cell-md flex group/cell transition-all -ml-1 grow-0 cursor-pointer`}
-        >
+        {/* Right Arrow Part */}
+        <div className="flex grow-0 group transition-all cursor-pointer">
           <span
-            className={`${bgColor} h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right w-6 -mr-4 -skew-x-[21deg] rounded-tl-[4px] rounded-bl-[10px] border-transparent`}
+            className={`${bgColor} w-6 -skew-x-[21deg] rounded-tl-md rounded-bl-md translate-x-3`}
           ></span>
           <div
-            className={`${bgColor} ${textColor} h-full min-h-cell-md max-h-cell-md truncate flex grow justify-center items-center transition-colors bg-clip-padding px-3`}
+            className={`${bgColor} ${textColor} flex items-center justify-center px-3`}
           >
-            <div className="w-full">
-              <span className="px-0 flex items-center transition-all">
-                <FaArrowRight />
-              </span>
-            </div>
+            <FaArrowRight />
           </div>
-          <span
-            className={`${bgColor} h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right -ml-0.5 w-3 rounded-r-[6px] border-transparent`}
-          ></span>
+          <span className={`${bgColor} w-2 rounded-r-md`}></span>
         </div>
       </div>
     </div>
