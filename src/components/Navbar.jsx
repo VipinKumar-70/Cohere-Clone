@@ -123,14 +123,14 @@ const Navbar = () => {
                       />
                     </div>
                     <button
-                      className="  block md:hidden absolute top-4 right-4 text-black text-2xl"
+                      className="block md:hidden absolute top-4 right-4 text-black text-2xl"
                       onClick={toggleMenu}
                     >
                       <IoClose />
                     </button>
                     <br />
                     <br />
-                    <div className="w-full  block md:hidden bg-gray-300 h-[.1px]"></div>
+                    <div className="w-full block md:hidden bg-gray-300 h-[.1px]"></div>
                     <div className="">
                       <ul className="md:absolute md:top-0 text-sm">
                         {[
