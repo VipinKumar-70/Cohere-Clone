@@ -6,6 +6,7 @@ import RetrievalModels from "./components/RetrievalModels";
 import DeploymentOption from "./components/DeploymentOption";
 import DeveloperResources from "./components/DeveloperResources";
 import OurMission from "./components/OurMission";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
       <DeploymentOption />
       <DeveloperResources />
       <OurMission />
+      <Footer />
     </>
   );
 }
