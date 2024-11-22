@@ -3,7 +3,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { IoClose } from "react-icons/io5";
 import Button from "./Button";
 
-const Navbar = () => {
+const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -173,4 +173,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;
