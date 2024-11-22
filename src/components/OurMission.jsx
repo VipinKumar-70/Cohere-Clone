@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import mbanner from "../assets/mBanner.png";
 import Button from "./Button";
+import { TextAnimation } from "../TextAnimation";
 
 function OurMission() {
+  const textRef = useRef(null);
+
+  // Using useEffect to ensure animation triggers after the component has mounted
+  useEffect(() => {
+    TextAnimation(textRef); // Trigger the animation after the component mounts
+  }, []);
+
   return (
     <section
       className="2xl:px-40 lg:px-22 px-6 bg-cover bg-center py-10"
@@ -24,7 +32,10 @@ function OurMission() {
         </div>
         <div className="relative flex justify-center items-center md:px-44 sm:px-36 my-28">
           <div>
-            <p className="2xl:text-7xl lg:text-5xl md:text-4xl text-3xl text-white text-center font-staread">
+            <p
+              ref={textRef}
+              className="2xl:text-7xl lg:text-5xl md:text-4xl text-3xl text-white text-center font-staread"
+            >
               Do whatever it takes to scale intelligence to serve humanity
             </p>
           </div>
