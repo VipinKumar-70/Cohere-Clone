@@ -74,6 +74,12 @@ Ensure you have the following installed:
    ```
 
 ## 📸 Screenshots
+![Screenshot (38)](https://github.com/user-attachments/assets/c63cc4a9-6a38-4fc3-86c0-abaf28e641a8)
+![Screenshot (51)](https://github.com/user-attachments/assets/419e35c5-38b1-46ca-838f-e5f8e13d7bcf)
+![Screenshot (52)](https://github.com/user-attachments/assets/8ac4d133-44eb-4139-8971-e31666feb864)
+![Screenshot (54)](https://github.com/user-attachments/assets/4ff74629-027d-4eaf-9082-fe4c781c4bc3)
+![Screenshot (55)](https://github.com/user-attachments/assets/15b7a84a-8ed4-4ed2-965e-5cbdf0029c60)
+![Screenshot (56)](https://github.com/user-attachments/assets/fca225dc-87ea-492c-9939-91b76771dd6c)
 
 
 ## Contributing
